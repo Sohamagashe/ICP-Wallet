@@ -1,0 +1,5 @@
+service : {
+    get_balance : () -> (nat64) query;
+    send_tokens : (principal, nat64) -> (text);
+    receive_tokens : (principal, nat64) -> (text);
+}

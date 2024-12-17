@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "DFX Start",
+      "type": "shell",
+      "command": "dfx start --clean",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "DFX Create Wallet",
+      "type": "shell",
+      "command": "dfx canister create wallet",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Creates the wallet canister and registers its ID."
+    },
+    {
+      "label": "DFX Build Wallet",
+      "type": "shell",
+      "command": "dfx build wallet",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Builds the wallet canister to generate WASM files."
+    },
+    {
+      "label": "DFX Deploy Wallet",
+      "type": "shell",
+      "command": "dfx deploy wallet",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Deploys the wallet canister to the local ICP test network."
+    },
+    {
+      "label": "DFX Check Wallet ID",
+      "type": "shell",
+      "command": "dfx canister id wallet",
+      "group": "build",
+      "problemMatcher": [],
+      "detail": "Displays the wallet canister ID."
+    }
+  ]
+}

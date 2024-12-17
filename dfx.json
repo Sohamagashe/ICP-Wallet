@@ -1,0 +1,10 @@
+{
+    "canisters": {
+      "wallet": {
+        "type": "custom",
+        "candid": "src/wallet.did",
+        "wasm": "target/wasm32-unknown-unknown/release/wallet.wasm"
+      }
+    }
+  }
+  
